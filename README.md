@@ -17,7 +17,7 @@ Application was built by Production Ready Web Framework Django
 # Docker
 ### 1. Run the image using the command:
 
-docker run -p 8000:8000 tbektleuov/devopslabs:lab7
+docker run --publish 8000:8000 tbektleuov/devopslabs:lab7
 
 ### 2. Now you should see the website by going to http://0.0.0.0:8000/
 
