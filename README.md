@@ -15,9 +15,9 @@ Application was built by Production Ready Web Framework Django
 `python manage.py runserver`
 
 # Docker
-### 1. Run the server in Docker using the command:
+### 1. Run the image using the command:
 
-`docker-compose up`
+docker run -p 8000:8000 tbektleuov/devopslabs:lab7
 
 ### 2. Now you should see the website by going to http://0.0.0.0:8000/
 
